@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://via.placeholder.com/50" alt="Perfil Icono" id="profile-icon">
+                <h1>Biblioteca Web</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#prices">Precios</a></li>
+                <li><a href="#roulette">Ruleta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Landing Page Section -->
+    <section id="home" class="landing">
+        <h2>¡Bienvenido a la Biblioteca Web!</h2>
+        <p>Compra, vende e intercambia libros con otros usuarios.</p>
+        <button onclick="scrollToSection('prices')">Ver Precios</button>
+    </section>
+
+    <!-- Prices Section -->
+    <section id="prices" class="prices">
+        <h2>Precios de Libros</h2>
+        <div class="price-list">
+            <div class="price-item">Libro Nuevo: $15</div>
+            <div class="price-item">Libro Usado: $8</div>
+            <div class="price-item">Intercambio: Gratis</div>
+        </div>
+    </section>
+
+    <!-- Book Roulette Section -->
+    <section id="roulette" class="roulette">
+        <h2>Ruleta de Libros</h2>
+        <div id="roulette-container">
+            <p id="roulette-result">Haz clic para girar la ruleta</p>
+            <button onclick="spinRoulette()">Girar Ruleta</button>
+        </div>
+        <div class="book-details">
+            <h3>Detalles del Libro</h3>
+            <p id="book-detail">Gira la ruleta para ver un libro aleatorio.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Biblioteca Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
