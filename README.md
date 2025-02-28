@@ -3,15 +3,13 @@ Proyecto LibrosWap
 
 Desarrolladores
 
-Jair Santiago Guerra
-
-Cristhian Giovanny Salgado 
-
-Ana Elizabeth Carreño
-
+Jair Santiago Guerra,
+Cristhian Giovanny Salgado ,
+Ana Elizabeth Carreño,
 Angel David Vanegas
 
 Descripción
+
 LibrosWap es una plataforma web para comprar, vender e intercambiar libros entre usuarios. Buscamos incrementar la lectura, conectar personas y fomentar el conocimiento compartido.
 Características Principales
 
