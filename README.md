@@ -3,9 +3,12 @@ Proyecto LibrosWap
 
 Desarrolladores
 
-Jair Santiago Guerra, 
-Cristhian Giovanny Salgado, 
-Ana Elizabeth Carreño, 
+Jair Santiago Guerra
+
+Cristhian Giovanny Salgado 
+
+Ana Elizabeth Carreño
+
 Angel David Vanegas
 
 Descripción
